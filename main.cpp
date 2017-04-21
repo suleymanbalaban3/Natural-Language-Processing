@@ -65,7 +65,6 @@ int main(int argc,char *argv[]) {
     int flag=0;
     char sentence[80];
     int nGram = 1;
-    char line[25];
     double result;
 
     if(argc!=2) {//arguman check
