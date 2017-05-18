@@ -323,7 +323,7 @@ double chainMarkovOneGram(string subSentence, int isRemain, int nGram) {
 		int occ = findOccInGrams(nGram,up,fileName1, sizeFile);
 
 		if(occ == 0)
-			return 1;
+			return 0;
 		return (double)occ/sizeFile;
 	}
 	else {
